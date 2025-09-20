@@ -13,12 +13,6 @@ yolo/
 │ └─ utils.py
 ├─ data/
 │ └─ coco_dataset.yaml
-├─ experiments/
-│ └─ run_001/
-│   ├─ weights/
-│   └─ logs/
-├─ results/
-│ └─ plots/
 └─ README.md
 ```
 
@@ -26,8 +20,6 @@ yolo/
 - **notebooks/** → Jupytext-style notebook for running end-to-end experiments
 - **src/** → Source code for augmentations, dataloading, training, video models, and utilities
 - **data/** → Dataset YAML for YOLO training
-- **experiments/** → Trained weights and logs
-- **results/** → Plots and evaluation outputs
 
 ## Usage
 1. Install requirements:
